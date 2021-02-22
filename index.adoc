@@ -4,17 +4,24 @@
 Předpokládejte, že k rozhraní PS/2 desky je připojena běžná PC klávesnice. Přijímejte znaky z klávesnice a převádějte je do ASCII kódu. Musíte podporovat zejména tyto klávesy:
 
 Klávesy s písmeny - produkují ASCII kódy velkých písmen.
+
 Klávesy s číslicemi - produkují ASCII kódy číslic (ASCII kódy 0x30-0x39).
+
 Klávesa Enter - produkuje znak LF (ASCII kód 0x0A).
+
 Mezerník - produkuje znak mezera (ASCII kód 0x20).
+
 Ostatní klávesy a události puštění klávesy korektně ignorujte. Protokol PS/2 a důležité kódy kláves jsou v dokumentaci desky. Tam jsou také odkazy na podrobnější specifikace.
 
 ==== 2. část - zobrazovač
 Znaky, které přicházejí z 1. části, zobrazujte na sedmisegmentovém displeji klasicky, tj. zleva doprava.
 
 Pokud jsou zaplněné všechny 4 pozice, pak při přijetí nového znaku posuňte text doleva o 1 pozici.
+
 Klávesa Enter "odřádkuje", tj. diplej zhasne a budeme zadávat znaky opět od nejlevější pozice.
+
 Pro zobrazení písmen můžete využít znaky definované např. v https://en.wikipedia.org/wiki/Seven-segment_display. Pro znaky, které se v sadě nevyskytují (např. K, M), nadefinujte vlastní tvary.
+
 Můžete (ale nemusíte) implementovat kurzor - blikající podtržítko.
 
 === Implementační platforma
