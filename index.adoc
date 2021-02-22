@@ -1,14 +1,25 @@
 == Projekt 2 Úloha 6 - Přepis znaků z klávesnice na zobrazovač
+=== Zadání
+==== 1. část - klávesnice
+Předpokládejte, že k rozhraní PS/2 desky je připojena běžná PC klávesnice. Přijímejte znaky z klávesnice a převádějte je do ASCII kódu. Musíte podporovat zejména tyto klávesy:
+
+Klávesy s písmeny - produkují ASCII kódy velkých písmen.
+Klávesy s číslicemi - produkují ASCII kódy číslic (ASCII kódy 0x30-0x39).
+Klávesa Enter - produkuje znak LF (ASCII kód 0x0A).
+Mezerník - produkuje znak mezera (ASCII kód 0x20).
+Ostatní klávesy a události puštění klávesy korektně ignorujte. Protokol PS/2 a důležité kódy kláves jsou v dokumentaci desky. Tam jsou také odkazy na podrobnější specifikace.
+
+==== 2. část - zobrazovač
+Znaky, které přicházejí z 1. části, zobrazujte na sedmisegmentovém displeji klasicky, tj. zleva doprava.
+
+Pokud jsou zaplněné všechny 4 pozice, pak při přijetí nového znaku posuňte text doleva o 1 pozici.
+Klávesa Enter "odřádkuje", tj. diplej zhasne a budeme zadávat znaky opět od nejlevější pozice.
+Pro zobrazení písmen můžete využít znaky definované např. v https://en.wikipedia.org/wiki/Seven-segment_display. Pro znaky, které se v sadě nevyskytují (např. K, M), nadefinujte vlastní tvary.
+Můžete (ale nemusíte) implementovat kurzor - blikající podtržítko.
+
 === Implementační platforma
 
 Úloha byla realizována na FPGA přípravku Digilent Basys 3
-
-=== Rozdělení rolí
-
-|====
-^h|  Tým 1     ^h|  Martin Stahl
-^h|  Tým 2     ^h|  Karel Čtvrtečka
-|====
 
 === Popis chování
 
@@ -24,11 +35,9 @@ Dále je v simulačním souboru na posledním řádku chyba, to je proto aby se 
 
 V implementaci je také resetovací tlačítko, které je vyvedeno na BTND.
 
-=== Archiv se soubory
-
-link:./Key2Disp.xpr.zip[Key2Disp.zip]
-
 === Popis souborů
+
+Složka PS2Gen obsahuje jednoduchý C program na generování vstupů a výstupů pro simulaci
 
 [options="autowidth"]
 |====
