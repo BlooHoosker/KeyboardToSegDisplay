@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sources_1/new/DISPLAY.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DISPLAY
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sources_1/imports/PNO/ascii2seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ascii2seg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sources_1/imports/PNO/inputBuffer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity inputBuffer
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sim_1/imports/PNO/displayTest.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_DISPLAY

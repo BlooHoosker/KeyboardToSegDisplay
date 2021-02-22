@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Failure: KONEC SIMULACE
+Time: 307600 ns  Iteration: 0  Process: /TB_KeyToDisp/PS2_GEN  File: C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sim_1/new/TB_KeyToDisp.vhd
+$finish called at time : 307600 ns : File "C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sim_1/new/TB_KeyToDisp.vhd" Line 105

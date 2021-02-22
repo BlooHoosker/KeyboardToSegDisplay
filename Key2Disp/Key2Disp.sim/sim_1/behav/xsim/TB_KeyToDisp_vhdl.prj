@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Key2Disp.srcs/sources_1/new/DD_SYNC.vhd" \
+"../../../../Key2Disp.srcs/sources_1/new/DISPLAY.vhd" \
+"../../../../Key2Disp.srcs/sources_1/new/KEYBOARD_CONTROLLER.vhd" \
+"../../../../Key2Disp.srcs/sources_1/new/KEYBOARD_DP.vhd" \
+"../../../../Key2Disp.srcs/sources_1/new/KEYBOARD_UNIT.vhd" \
+"../../../../Key2Disp.srcs/sources_1/imports/Documents/Key2LED.vhd" \
+"../../../../Key2Disp.srcs/sim_1/new/TB_KeyToDisp.vhd" \
+
+# Do not sort compile order
+nosort

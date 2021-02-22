@@ -1,0 +1,2 @@
+== Malý c++ program, který náhodně generuje scancode vstupy pro test-bench a jejich správné výstupy. 
+=== Tyto vstupy/výstupy pak ukládá do souboru ps2input.txt

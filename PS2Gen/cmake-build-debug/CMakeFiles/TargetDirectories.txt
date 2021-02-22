@@ -1,0 +1,3 @@
+D:/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/PS2Gen/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/PS2Gen/cmake-build-debug/CMakeFiles/PS2gen.dir
+D:/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/PS2Gen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
