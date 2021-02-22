@@ -1,3 +1,3 @@
-#KeyboardToSegDisplay
+# KeyboardToSegDisplay
 
-Dokumentace v souboru index.adoc
+# Dokumentace v souboru index.adoc
