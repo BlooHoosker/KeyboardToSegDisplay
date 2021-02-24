@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.sim/sim_1/synth/func/xsim/TB_KeyToDisp_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DD_SYNC
+INFO: [VRFC 10-307] analyzing entity DD_SYNC_0
+INFO: [VRFC 10-307] analyzing entity DISPLAY
+INFO: [VRFC 10-307] analyzing entity KEYBOARD_CONTROLLER
+INFO: [VRFC 10-307] analyzing entity KEYBOARD_DP
+INFO: [VRFC 10-307] analyzing entity KEYBOARD_UNIT
+INFO: [VRFC 10-307] analyzing entity Key2LED
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sim_1/new/TB_KeyToDisp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_KeyToDisp

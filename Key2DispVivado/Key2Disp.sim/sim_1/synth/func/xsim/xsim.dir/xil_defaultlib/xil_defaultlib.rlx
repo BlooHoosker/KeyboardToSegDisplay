@@ -1,0 +1,9 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.sim/sim_1/synth/func/xsim/TB_KeyToDisp_func_synth.vhd,1607392659,vhdl,,,,dd_sync;dd_sync_0;display;key2led;keyboard_controller;keyboard_dp;keyboard_unit,,,,,,,,
+C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sim_1/imports/PNO/displayTest.vhd,1606689683,vhdl,,,,tb_display,,,,,,,,
+C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sim_1/new/TB_KeyToDisp.vhd,1607392657,vhdl,,,,tb_keytodisp,,,,,,,,
+C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sources_1/imports/PNO/ascii2seg.vhd,1607391779,vhdl,,,,ascii2seg,,,,,,,,
+C:/Users/marti/OneDrive/CVUT/Semester5/PNO/Semestralka2_KeyboardToDisplay/Key2Disp/Key2Disp.srcs/sources_1/imports/PNO/inputBuffer.vhd,1605652954,vhdl,,,,inputbuffer,,,,,,,,

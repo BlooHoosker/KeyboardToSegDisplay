@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Key2Disp.srcs/sources_1/new/DISPLAY.vhd" \
+"../../../../Key2Disp.srcs/sources_1/imports/PNO/ascii2seg.vhd" \
+"../../../../Key2Disp.srcs/sources_1/imports/PNO/inputBuffer.vhd" \
+"../../../../Key2Disp.srcs/sim_1/imports/PNO/displayTest.vhd" \
+
+# Do not sort compile order
+nosort
